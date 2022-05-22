@@ -20,3 +20,29 @@ body {
   display: flex !important;
   justify-content: center !important;
 }
+
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/welcome-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 250px;
+}
+
+.welcome-blog { 
+  width: 35%;
+  background-color: white;
+  text-align: center;
+  padding: 20px 50px;
+  padding-bottom: 0;
+}
+
+.welcome-blog-paragraph {
+  font-size: 25px;
+}
+
+.welcome-blog-button {
+  margin-top: 3%;
+}
