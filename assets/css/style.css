@@ -46,3 +46,27 @@ body {
 .welcome-blog-button {
   margin-top: 3%;
 }
+
+.cards-container {
+  padding: 50px;
+}
+
+.hedgehod-card {
+  text-align: center;
+  border: 1px solid #c7c7c7;
+  padding: 100px;
+}
+
+.hedgehod-card-btn {
+  color: white !important;
+  background-color: #0c3c60 !important;
+}
+
+.hedgehod-card-btn:hover {
+  color: rgb(0, 0, 0) !important;
+  background-color: #208adb !important;
+}
+
+.hedgehod-card-name {
+  letter-spacing: 2px;
+}
