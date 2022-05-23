@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'Brandon Grotesque Thin';
+  src:
+  url('../fonts/BrandonGrotesque-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family: 'Brandon Grotesque Thin' !important;
   height: 100% !important;
 }
 
