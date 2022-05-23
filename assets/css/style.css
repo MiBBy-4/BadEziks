@@ -4,7 +4,15 @@
   url('../fonts/BrandonGrotesque-Thin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
+}
+
+@font-face {
+  font-family: 'AvenirLT Light';
+  src:
+  url('../fonts/AvenirLT-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   font-family: 'Brandon Grotesque Thin' !important;
@@ -151,4 +159,23 @@ body {
   margin-top: 25px;
   display: flex;
   justify-content: center;
+}
+
+.footer {
+  background-color: #072136 !important;
+  color: white;
+  font-weight: 900;
+  padding: 50px 100px 100px 100px;
+  font-family: 'AvenirLT Light';
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-menu-elem {
+  display: block;
+  text-decoration: none;
+  color: white;
 }
