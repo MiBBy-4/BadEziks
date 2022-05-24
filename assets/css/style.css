@@ -14,6 +14,10 @@
   font-style: normal;
 }
 
+html, body {
+  height: 100% !important;
+}
+
 body {
   font-family: 'Brandon Grotesque Thin' !important;
   height: 100% !important;
@@ -215,4 +219,8 @@ button {
 .form-label {
   font-weight: 900 !important;
   font-size: 25px !important;
+}
+
+.footer {
+  
 }
