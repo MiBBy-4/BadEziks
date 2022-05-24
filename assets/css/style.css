@@ -22,6 +22,8 @@ body {
 .navbar {
   background-color: #0c3c60!important;
   color: white !important;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .navbar-brand{
@@ -61,6 +63,8 @@ body {
 
 .welcome-blog-button {
   margin-top: 3%;
+  font-weight: 900 !important;
+  color: black !important;
 }
 
 .cards-container {
@@ -71,6 +75,10 @@ body {
   text-align: center;
   border: 1px solid #c7c7c7;
   padding: 100px;
+}
+
+.hedgehod-card-description {
+  font-weight: 600;
 }
 
 .hedgehod-card-btn {
@@ -97,9 +105,20 @@ body {
   color: white;
 }
 
+.about-container-title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
 .about-container-description {
-  text-align: center;
+  text-align: left;
   max-inline-size: 25%;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.about-container-description:last-of-type {
+  margin-left: 2%;
 }
 
 .about-descriptions {
@@ -178,4 +197,17 @@ body {
   display: block;
   text-decoration: none;
   color: white;
+}
+
+button {
+  font-weight: 900 !important;
+}
+
+.social {
+  font-size: 25px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
 }
