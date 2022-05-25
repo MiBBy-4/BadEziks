@@ -236,3 +236,28 @@ button {
 .commerce {
   font-weight: 900;
 }
+
+.order-input {
+  display: block;
+  border: none;
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 10px;
+
+}
+
+.order-input:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.order-text {
+  resize: none;
+  display: block;
+  border: none;
+  outline: none !important;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.order-text:focus {
+  outline: none;
+}

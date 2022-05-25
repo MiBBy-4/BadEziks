@@ -54,7 +54,7 @@
         <div class="commerce">
           <p>Price: 12.99$</p>
         </div>
-        <button class="btn hedgehod-card-btn">Order</button>
+        <button class="btn hedgehod-card-btn" data-bs-toggle="modal" data-bs-target="#modal">Order</button>
       </div>
       <div class="hedgehod-card col-3">
         <div class="hedgehod-card-image">
@@ -65,7 +65,7 @@
         <div class="commerce">
           <p>Price: 12.99$</p>
         </div>
-        <button class="btn hedgehod-card-btn">Order</button>
+        <button class="btn hedgehod-card-btn" data-bs-toggle="modal" data-bs-target="#modal">Order</button>
       </div>
       <div class="hedgehod-card col-3">
         <div class="hedgehod-card-image">
@@ -76,8 +76,29 @@
         <div class="commerce">
           <p>Price: 12.99$</p>
         </div>
-        <button class="btn hedgehod-card-btn">Order</button>
+        <button class="btn hedgehod-card-btn" data-bs-toggle="modal" data-bs-target="#modal">Order</button>
       </div>  
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Order Hedgehog</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="order-form">
+            <input type="email" name="email" class="order-input" placeholder="Type your email">
+            <input type="tel" name="telephone" class="order-input" placeholder="Type your phone number">
+            <textarea name="addition" class="order-text" id="" cols="20" rows="1" placeholder="Type addition information(if need)"></textarea>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
     </div>
   </div>
 
